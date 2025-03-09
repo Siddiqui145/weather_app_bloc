@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           theme: ThemeData.dark(
           ),
-          home: const WeatherScreen()
+          home: const WeatherScreen(),
+          debugShowCheckedModeBanner: false,
         ),
       ),
     );
